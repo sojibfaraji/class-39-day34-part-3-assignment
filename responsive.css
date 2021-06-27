@@ -1,0 +1,119 @@
+
+@media (max-width: 1266px) {
+    .fixwidth {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    .img-left {
+        width: 100%;
+    }
+    .content-right {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .contact {
+        padding: 0 0 40px 0;
+    }
+    .banner {
+        padding: 150px 0 120px 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .service-item {
+        width: 50%;
+    }
+    .services h2 {
+        font-size: 25px;
+    }
+    .services p {
+        width: 487px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .banner {
+        padding: 150px 0 120px 0;
+    }
+}
+@media (max-width: 768px) {
+    .logo-left {
+        width: 100%;
+        text-align: center;
+    }
+    .menu-right {
+        width: 100%;
+    }
+    .menu-right ul {
+        text-align: center;
+    }
+    .menu-right ul li a {
+        padding: 0 12px;
+        
+    }
+    .banner-content h1 {
+        font-size: 35px;
+        margin-bottom: 12px;
+    }
+    .banner-content p {
+        font-size: 14px;
+    }
+    .services {
+        width: 100%;
+    }
+    .services p {
+        text-align: center;
+        width: 100%;
+    }
+    .service-item {
+        width: 100%;
+        margin-bottom: -15px;
+    }
+    .content-right p {
+        font-size: 15px;
+    }
+    .location {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .banner {
+        padding: 150px 0 85px 0;
+    }
+}
+
+.menu-right span{
+    display: none;
+}
+
+@media (max-width: 460px) {
+    .logo-left {
+        width: 75%;
+        text-align: left;
+    }
+    .menu-right ul {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .menu-right {
+        width: 25%;
+        text-align: right;
+        line-height: 55px;
+    }
+    .menu-right span {
+        font-size: 24px;
+        color: #fff;
+        cursor: pointer;
+        display: block;
+    }
+    .service-item p {
+        font-size: 15px;
+    }
+    .services p {
+        font-size: 15px;
+    }
+    .banner {
+        padding: 100px 0 52px 0;
+    }
+}
